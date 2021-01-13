@@ -1,0 +1,231 @@
+@font-face {
+  font-family: sequel-semi-bold;
+  src: url('/fonts/Sequel_Family/Sequel\ Sans\ Semi\ Bold\ Body.ttf');
+}
+
+@font-face {
+  font-family: sequel-roman;
+  src: url('/fonts/Sequel_Family/Sequel\ Sans\ Roman\ Body.ttf');
+}
+
+@font-face {
+  font-family: sequel-book;
+  src: url('/fonts/Sequel_Family/Sequel\ Sans\ Book\ Obl\ Body.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  //border: solid 3px #000;
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+:root{
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/*===== Cores =====*/
+:root{
+  --first-color: #993399;
+  --second-color: #FCFCFC;
+  --bnt-color: #006BAC;
+}
+
+/*===== Fonte e tipografia =====*/
+:root{
+  --sequel-semi-bold: 'sequel-semi-bold', sans-serif;
+  --sequel-book: 'sequel-book', sans-serif;
+  --sequel-roman: 'sequel-roman', sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+/*===== Margin =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+  --mb-7: 3.5rem;
+  --mb-8: 4rem;
+  --mb-9: 4.5rem;
+  --mb-10: 10rem;
+  --mb-12: 12rem;
+}
+
+header {
+  color: #ffffff;
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: url('img/Group\ 202.png') no-repeat center;
+  background-size: cover;
+}
+
+
+.sessao-topo {
+  background: #993399;
+  height: 40px;
+}
+
+.sessao-topo p {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: var(--sequel-roman);
+}
+
+.menu__color{
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-family: var(--sequel-book);
+}
+
+
+.menu__text {
+  font-size: 58px;
+  color: var(--second-color);
+  margin-top: var(--mb-10);
+  margin-bottom: var(--mb-5);
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--bnt-color);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  margin-right: 0.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  font-family: var(--sequel-semi-bold);
+}
+
+.button__dois {
+  display: inline-block;
+  background-color: transparent;
+  border: solid 3px #fff;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  margin-right: 0.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  font-family: var(--sequel-semi-bold);
+}
+
+.baixe__agora h4{
+  font-size: 24px;
+  font-family: var(--sequel-semi-bold);
+  margin-top: var(--mb-9);
+}
+
+
+/* Sessao Dois */
+.sessao__dois {
+  width: 100%;
+  height: 500px;
+  background: var(--first-color);
+}
+
+.sessao__dois h1 {
+  margin-top: 100px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.sessao__dois p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  font-family: var(--sequel-roman);
+}
+
+.img__sessao_dois {
+  margin-top: var(--mb-12);
+}
+
+/* Sessão Tres*/
+.sessao__tres {
+  width: 100%;
+  background: var(--second-color);
+}
+
+.sessao__tres h1 {
+  font-size: 36px;
+  color: #2E2E2E;
+  font-weight: var(--font-semi);
+  font-family: var(--sequel-semi-bold);
+}
+
+.sessao__tres h2 {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #2E2E2E;
+  font-weight: var(--font-semi);
+  font-family: var(--sequel-semi-bold);
+}
+
+.sessao__tres p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #2E2E2E;
+  font-family: var(--sequel-book);
+}
+
+.img__sessao__03 {
+  background: url('img/img__sessao_03.png') no-repeat center;
+  background-size: cover;
+}
+
+/* Sessão Quatro*/
+.sessao__quatro {
+  width: 100%;
+  background: var(--second-color);
+}
+
+.sessao__quatro h1 {
+  font-size: 36px;
+  color: #2E2E2E;
+  font-weight: var(--font-semi);
+  font-family: var(--sequel-semi-bold);
+}
+
+.sessao__quatro h2 {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #2E2E2E;
+  font-weight: var(--font-semi);
+  font-family: var(--sequel-semi-bold);
+}
+
+.sessao__quatro p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #2E2E2E;
+  font-family: var(--sequel-book);
+}
+
+.img__sessao__04 {
+  background: url('img/img__sessao_04.png') no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
