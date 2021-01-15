@@ -1,0 +1,393 @@
+@font-face {
+  font-family: sequel-semi-bold;
+  src: url('/fonts/Sequel_Family/Sequel\ Sans\ Semi\ Bold\ Body.ttf');
+}
+
+@font-face {
+  font-family: sequel-roman;
+  src: url('/fonts/Sequel_Family/Sequel\ Sans\ Roman\ Body.ttf');
+}
+
+@font-face {
+  font-family: sequel-book;
+  src: url('/fonts/Sequel_Family/Sequel\ Sans\ Book\ Obl\ Body.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  //border: solid 3px #000;
+}
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+:root{
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/*===== Cores =====*/
+:root{
+  --first-color: #993399;
+  --second-color: #FCFCFC;
+  --bnt-color: #006BAC;
+}
+
+/*===== Fonte e tipografia =====*/
+:root{
+  --sequel-semi-bold: 'sequel-semi-bold', sans-serif;
+  --sequel-book: 'sequel-book', sans-serif;
+  --sequel-roman: 'sequel-roman', sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+
+/*===== Margin =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+  --mb-7: 3.5rem;
+  --mb-8: 4rem;
+  --mb-9: 4.5rem;
+  --mb-10: 10rem;
+  --mb-12: 12rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--bnt-color);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  margin-right: 0.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  font-family: var(--sequel-semi-bold);
+}
+
+.button__dois {
+  display: inline-block;
+  background-color: transparent;
+  border: solid 3px #fff;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  margin-right: 0.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  font-family: var(--sequel-semi-bold);
+}
+
+.button__tres {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  margin-right: 0.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  font-family: var(--sequel-semi-bold);
+}
+
+.button__quatro {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem 7.5rem;
+  margin-right: 0.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 2.5rem;
+  font-family: var(--sequel-semi-bold);
+}
+
+/* Header Nav Menu Inicio */
+
+header {
+  color: #ffffff;
+  height: 75%;
+  width: 100%;
+  background: url('../img/bg_mobilidade.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+.d-flex-topo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_social {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.flex-social {
+  display: flex;
+  list-style: none;
+}
+
+.sessao-topo {
+  background: #993399;
+  height: 40px;
+}
+
+.sessao-topo p {
+  color: #fff;
+  font-size: 13px;
+  font-family: var(--sequel-roman);
+}
+
+/* Header */
+
+.menu__text {
+  background-color: rgba(153,51,153,0.6);
+  margin-top: var(--mb-12);
+  margin-bottom: var(--mb-12);
+}
+
+.menu__text h1 {
+  font-size: 48px;
+  color: var(--second-color);
+  padding: var(--mb-6);
+  font-family: var(--sequel-semi-bold);
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu__text h2 {
+  font-size: 24px;
+  padding-left: var(--mb-6);
+  padding-right: var(--mb-6);
+  padding-bottom: var(--mb-6);
+  color: var(--second-color);
+  font-family: var(--sequel-roman);
+}
+
+
+@media (max-width: 739px) {
+	header {
+    color: #fff;
+    max-width: 100%;
+    height: 100%;
+    background: url('../img/bg_mobilidade.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .sessao-topo {
+    height: 80px;
+  }
+  
+  .sessao-topo p {
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  .menu__text h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  .menu__text h2 {
+    font-size: 18px;
+    color: var(--second-color);
+    font-family: var(--sequel-book);
+  }
+
+  .img_logo{
+    width: 150px;
+    height: 50px;
+  }
+
+  .padding-para-mobile {
+    padding: 0 25px 0 25px;
+  }
+
+}
+
+/* Sessão 02 */
+
+.sessao__dois {
+  width: 100%;
+  height: auto;
+  background-color: var(--first-color);
+  padding-bottom: 60px;
+}
+
+.sessao__dois p{
+  padding-top: 60px;
+  font-family: var(--sequel-roman);
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 739px) {
+  
+  .sessao__dois p{
+    font-size: 18px;
+  }
+}
+
+/* Sessao 03 */
+.sessao__tres {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding-bottom: 60px;
+}
+
+.sessao__tres p{
+  padding-top: 60px;
+  font-family: var(--sequel-roman);
+  font-size: 24px;
+  color: #000;
+}
+
+
+/* Sessão 04 */
+.sessao__quatro {
+  width: 100%;
+  height: 800px;
+}
+
+.sl-empresa {
+  background: #016CAD;
+  padding: 20px 0 20px 0;
+}
+
+.sl-empresa h1{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--sequel-roman);
+}
+
+.sl-voce {
+  background: var(--first-color);
+  padding: 20px 0 20px 0;
+}
+
+.sl-voce h1{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--sequel-roman);
+}
+
+.sl-voce-text {
+  padding: 60px 120px 30px 120px;
+}
+
+.sl-voce-text h1{
+  color: #2E2E2E;
+  font-size: 36px;
+  font-family: var(--sequel-semi-bold);
+}
+
+.sl-voce-text h2{
+  color: var(--first-color);
+  font-size: 30px;
+  font-family: var(--sequel-semi-bold);
+  padding-bottom: 30px;
+}
+
+.sl-voce-text p{
+  color: #2E2E2E;
+  font-size: 18px;
+  font-family: var(--sequel-book);
+  padding-bottom: 30px;
+}
+
+
+/* Sessão Cinco*/
+.sessao__cinco {  
+  width: 100%;
+  height: auto;
+  background: #2E2E2E;
+  padding-bottom: 60px;
+}
+
+.sessao__cinco h1 {  
+  text-align: center;
+  padding-top: 60px;
+  color: #fff;
+  font-size: 36px;
+  font-family: var(--sequel-semi-bold);
+}
+
+.form-01 {
+  padding-top: 60px;
+}
+
+.form-01 p {
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--sequel-roman);
+}
+
+.form-01-p {
+  padding-top: 60px;
+}
+
+.form-02 {
+  padding-top: 60px;
+}
+
+.form-02 p {
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--sequel-roman);
+}
+
+.form-02-p {
+  padding-top: 60px;
+}
+
+.footer {
+  height: 50px;
+  background: var(--first-color);
+  color: var(--second-color);
+  font-size: 14px;
+  font-family: var(--sequel-roman);
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+@media (max-width: 739px) {  
+  .sessao__cinco h1 {  
+    text-align: left;
+    font-size: 28px;
+  }
+  
+  .form-01 p {
+    font-size: 18px;
+  }
+  
+  .form-02 p {
+    font-size: 18px;
+  }
+
+}
