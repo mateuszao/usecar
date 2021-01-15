@@ -158,6 +158,11 @@ header {
   font-family: var(--sequel-roman);
 }
 
+.menu__color {
+  font-family: var(--sequel-book);
+  font-size: 24px;
+}
+
 /* Header */
 
 .menu__text {
@@ -207,12 +212,23 @@ header {
   }
 
   .img_logo{
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 55px;
   }
 
   .padding-para-mobile {
     padding: 0 25px 0 25px;
+  }
+
+  .menu__text {
+    background-color: rgba(153,51,153,0.6);
+    margin-top: var(--mb-12);
+    margin-bottom: var(--mb-12);
+  }
+
+  .menu__color {
+    font-size: 16px;
+    text-align: center;
   }
 
 }
@@ -292,34 +308,6 @@ header {
     padding-bottom: 60px;
   }
 }
-
-
-/* Sessão Quatro */ 
-.sessao__quatro {
-  width: 100%;
-  height: auto;
-}
-
-.sessao__quatro h1 {
-  text-align: center;
-  padding: 60px 0 60px 0;
-  color: #2E2E2E;
-  font-size: 36px;
-  font-family: var(--sequel-semi-bold);
-  font-weight: bold;
-}
-
-.fim-conheca {
-  padding-bottom: 60px;
-}
-
-@media (max-width: 739px) {
-  .sessao__quatro h1 {
-    font-size: 28px;
-  }
-}
-
-
 
 /* Sessão Cinco*/
 .sessao__cinco {  

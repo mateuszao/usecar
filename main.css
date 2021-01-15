@@ -121,7 +121,7 @@ a{
 
 header {
   color: #ffffff;
-  height: auto;
+  height: 100%;
   width: 100%;
   background: url('img/Group\ 202.png') no-repeat center;
   background-size: cover;
@@ -179,12 +179,17 @@ header {
 }
 
 .baixe__agora {
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 .img_store {
   width: 150px;
   height: 50px;
+}
+
+.menu__color {
+  font-family: var(--sequel-book);
+  font-size: 24px;
 }
 
 
@@ -231,9 +236,14 @@ header {
     font-size: 18px;
   }
 
+  .menu__color {
+    font-size: 16px;
+    text-align: center;
+  }
+
   .img_logo{
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 55px;
   }
 
 }
@@ -262,7 +272,7 @@ header {
 }
 
 .img__sessao_dois {
-  margin-top: var(--mb-12);
+  margin-top: 80px;
 }
 
 @media (max-width: 739px) {
@@ -279,68 +289,128 @@ header {
   }
 
   .img__sessao_dois {
-    margin-top: var(--mb-9);
-    width: var(--mb-12);
+    margin-top: 60px;
+    width: 150px;
   }
 }
 
-
-
-/* Sessão Tres*/
-.sessao__tres {
+/* sessao__video_um */
+.sessao__video_um, .sessao__video_dois {
   width: 100%;
-  background: var(--second-color);
+  height: auto;
 }
 
-.sessao__tres h1 {
-  font-size: 36px;
-  color: #2E2E2E;
-  font-weight: var(--font-semi);
-  font-family: var(--sequel-semi-bold);
-}
 
-.sessao__tres h2 {
-  margin-top: 15px;
-  font-size: 30px;
-  color: #2E2E2E;
-  font-weight: var(--font-semi);
-  font-family: var(--sequel-semi-bold);
-}
-
-.sessao__tres p {
-  margin-top: 30px;
-  font-size: 18px;
-  color: #2E2E2E;
-  font-family: var(--sequel-book);
-}
-
-/* Sessão Quatro*/
+/* Sessão 04 - Solição */
 .sessao__quatro {
   width: 100%;
-  background: var(--second-color);
+  height: auto;
 }
 
-.sessao__quatro h1 {
+.sl-empresa {
+  background: #016CAD;
+  padding: 20px 0 20px 0;
+}
+
+.sl-empresa h1{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--sequel-roman);
+}
+
+.sl-voce {
+  background: var(--first-color);
+  padding: 20px 0 20px 0;
+}
+
+.sl-voce h1{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--sequel-roman);
+}
+
+.sl-empresa-text{
+  padding: 60px 120px 30px 120px;
+}
+
+.sl-empresa-text h1{
+  color: #2E2E2E;
   font-size: 36px;
-  color: #2E2E2E;
-  font-weight: var(--font-semi);
   font-family: var(--sequel-semi-bold);
+  font-weight: bold;
 }
 
-.sessao__quatro h2 {
-  margin-top: 15px;
+.sl-empresa-text h2{
+  color: #006BAC;
   font-size: 30px;
-  color: #2E2E2E;
-  font-weight: var(--font-semi);
   font-family: var(--sequel-semi-bold);
+  padding-bottom: 30px;
+  font-weight: bold;
 }
 
-.sessao__quatro p {
-  margin-top: 30px;
-  font-size: 18px;
+.sl-empresa-text p{
   color: #2E2E2E;
+  font-size: 18px;
   font-family: var(--sequel-book);
+  padding-bottom: 30px;
 }
+
+.sl-voce-text {
+  padding: 60px 120px 30px 120px;
+}
+
+.sl-voce-text h1{
+  color: #2E2E2E;
+  font-size: 36px;
+  font-family: var(--sequel-semi-bold);
+  font-weight: bold;
+}
+
+.sl-voce-text h2{
+  color: var(--first-color);
+  font-size: 30px;
+  font-family: var(--sequel-semi-bold);
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.sl-voce-text p{
+  color: #2E2E2E;
+  font-size: 18px;
+  font-family: var(--sequel-book);
+  padding-bottom: 30px;
+}
+
+.aparece-mobile {
+  display: none;
+}
+
+.click_sl {
+  color: var(--first-color);
+}
+
+@media (max-width: 739px) {
+  .some-mobile {
+    display: none;
+  }
+
+  .aparece-mobile {
+    display: block;
+  }
+  
+  .sl-empresa-text{
+    padding: 30px 0 0 0;
+  }
+  
+  .sl-voce-text {
+    padding: 30px 0 0 0;
+  }
+
+}
+
+/* Fim Sessão 04 - Solição */
 
 /* Sessão Cinco*/
 .sessao__cinco {  
