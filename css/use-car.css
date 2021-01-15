@@ -123,7 +123,7 @@ header {
   color: #ffffff;
   height: auto;
   width: 100%;
-  background: url('../img/bg_sobre_nos.jpg') no-repeat center;
+  background: url('../img/bg_usecar.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -167,22 +167,14 @@ header {
 }
 
 .menu__text h1 {
-  font-size: 48px;
+  font-size: 36px;
   color: var(--second-color);
   padding: var(--mb-6);
   font-family: var(--sequel-semi-bold);
-  text-align: center;
+  text-align: left;
   font-weight: bold;
 }
 
-.menu__text h2 {
-  font-size: 24px;
-  padding-left: var(--mb-6);
-  padding-right: var(--mb-6);
-  padding-bottom: var(--mb-6);
-  color: var(--second-color);
-  font-family: var(--sequel-roman);
-}
 
 
 @media (max-width: 739px) {
@@ -190,7 +182,7 @@ header {
     color: #fff;
     max-width: 100%;
     height: auto;
-    background: url('../img/bg_sobre_nos.jpg') no-repeat center;
+    background: url('../img/bg_usecar.jpg') no-repeat center;
     background-size: cover;
   }
 
@@ -225,235 +217,115 @@ header {
 
 }
 
-/* Header Nav Menu Inicio */
-
 /* Sessão 02 */
 
 .sessao__dois {
   width: 100%;
   height: auto;
   background-color: var(--first-color);
-  padding-bottom: 60px;
 }
 
 .sessao__dois p{
-  padding-top: 60px;
+  padding: 60px 0 60px 0;
   font-family: var(--sequel-roman);
   font-size: 24px;
   color: #fff;
 }
 
 @media (max-width: 739px) {
-  
   .sessao__dois p{
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 18px;
   }
 }
 
 /* Sessão 03 */
-
 .sessao__tres {
   width: 100%;
   height: auto;
+  background: #EAEAEA;
+}
+
+.vantagens h1 {
+  text-align: center;
+  font-size: 36px;
+  font-family: var(--sequel-semi-bold);
+  color: #2E2E2E;
+  font-weight: bold;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.sobre {
-  padding-top: 60px;
-}
-
-.sobre h1 {
-  text-align: center;
-  padding-bottom: 30px;
-  font-size: 36px;
+.lista-vantagem h1 {
+  font-size: 30px;
   font-family: var(--sequel-semi-bold);
   color: #2E2E2E;
   font-weight: bold;
 }
 
-.sobre h2 {
-  text-align: center;
-  padding-bottom: 30px;
-  font-size: 24px;
-  font-family: var(--sequel-roman);
-  color: #2E2E2E;
-  padding: 0 150px 0 150px;
-}
-
-.missao {
-  padding-top: 60px;
-}
-
-.missao h1 {
-  text-align: center;
-  padding-bottom: 30px;
-  font-size: 36px;
-  font-family: var(--sequel-semi-bold);
-  color: #2E2E2E;
-  font-weight: bold;
-}
-
-.missao h2 {
-  text-align: center;
-  padding-bottom: 30px;
-  font-size: 24px;
-  font-family: var(--sequel-roman);
-  color: #2E2E2E;
-  padding: 0 150px 0 150px;
-}
-
-.conheca {
-  padding-top: 60px;
-}
-
-.conheca h1 {
-  text-align: center;
-  padding-bottom: 30px;
-  font-size: 24px;
-  font-family: var(--sequel-semi-bold);
-  color: #2E2E2E;
-  font-weight: bold;
-}
-
-.icone-social-sobre {
-  width: 40px;
-  height: 40px;
-  background: var(--first-color);
-  border-radius: 50px;
-  margin-left: 5px;
-}
-
-.sobre-luminus {
-  padding-top: 60px;
-}
-
-.sobre-luminus h1 {
-  padding-bottom: 30px;
-  font-size: 36px;
-  font-family: var(--sequel-semi-bold);
-  color: #2E2E2E;
-  font-weight: bold;
-}
-
-.sobre-luminus p {
-  padding-bottom: 30px;
-  font-size: 24px;
-  font-family: var(--sequel-roman);
-  color: #2E2E2E;
-}
-
-.sobre-luminus h3 {
-  padding-bottom: 30px;
+.lista-vantagem h2 {
   font-size: 24px;
   font-family: var(--sequel-semi-bold);
   color: #2E2E2E;
 }
 
-.sobre-luminus h2 {
-  padding-bottom: 30px;
-  font-size: 28px;
-  font-family: var(--sequel-semi-bold);
-  color: #2E2E2E;
+.fim-vantagens {
+  padding-bottom: 60px;
 }
 
-.logo_luminus {
-  margin-top: 30px;
-  width: 230px;
-}
 
-@media (max-width: 739px) {  
-  .sobre {
-    padding-top: 60px;
+@media (max-width: 739px) {
+  .vantagens h1 {
+    font-size: 28px;
   }
-  
-  .sobre h1 {
-    padding-bottom: 30px;
-    font-size: 24px;
+
+  .lista-vantagem h1 {
+    font-size: 28px;
   }
-  
-  .sobre h2 {
-    padding-bottom: 30px;
-    font-size: 24px;
-    color: #2E2E2E;
-    padding: 0 0 0 0;
-  }
-  
-  .missao {
-    padding-top: 60px;
-  }
-  
-  .missao h1 {
-    padding-bottom: 30px;
-    font-size: 24px;
-  }
-  
-  .missao h2 {
-    padding-bottom: 30px;
-    font-size: 24px;
-    padding: 0 0 0 0;
-  }
-  
-  .conheca {
-    padding-top: 60px;
-  }
-  
-  .conheca h1 {
-    text-align: center;
-    padding-bottom: 30px;
-    font-size: 24px;
-    font-family: var(--sequel-semi-bold);
-    color: #2E2E2E;
-    font-weight: bold;
-  }
-  
-  .icone-social-sobre {
-    width: 40px;
-    height: 40px;
-    background: var(--first-color);
-    border-radius: 50px;
-    margin-left: 5px;
-  }
-  
-  .sobre-luminus {
-    padding-top: 60px;
-  }
-  
-  .sobre-luminus h1 {
-    padding-bottom: 30px;
-    font-size: 24px;
-  }
-  
-  .sobre-luminus p {
-    padding-bottom: 30px;
+
+  .lista-vantagem h2 {
     font-size: 18px;
   }
-  
-  .sobre-luminus h3 {
-    padding-bottom: 30px;
-    font-size: 22px;
-    font-family: var(--sequel-semi-bold);
-    color: #2E2E2E;
-  }
-  
-  .sobre-luminus h2 {
-    padding-bottom: 30px;
-    font-size: 18px;
-    font-family: var(--sequel-semi-bold);
-    color: #2E2E2E;
-  }
-  
-  .logo_luminus {
-    width: 150px;
-    height: 150px;
+
+  .fim-vantagens {
+    padding-bottom: 60px;
   }
 }
+
+
+/* Sessão Quatro */ 
+.sessao__quatro {
+  width: 100%;
+  height: auto;
+}
+
+.sessao__quatro h1 {
+  text-align: center;
+  padding: 60px 0 60px 0;
+  color: #2E2E2E;
+  font-size: 36px;
+  font-family: var(--sequel-semi-bold);
+  font-weight: bold;
+}
+
+.fim-conheca {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 739px) {
+  .sessao__quatro h1 {
+    font-size: 28px;
+  }
+}
+
+
 
 /* Sessão Cinco*/
 .sessao__cinco {  
   width: 100%;
-  height: auto;
+  height: 800px;
   background: #2E2E2E;
-  padding-bottom: 60px;
 }
 
 .sessao__cinco h1 {  
@@ -504,7 +376,12 @@ header {
 
 
 
-@media (max-width: 739px) {  
+@media (max-width: 739px) {
+  .sessao__cinco {
+    height: auto;
+    padding-bottom: 60px;
+  }
+  
   .sessao__cinco h1 {  
     text-align: left;
     font-size: 28px;
@@ -518,4 +395,39 @@ header {
     font-size: 18px;
   }
 
+}
+
+/* Sessão 06 */ 
+.sessao__seis {
+  width: 100%;
+  height: auto;
+  background: var(--first-color);
+  padding-bottom: 60px;
+}
+
+.sessao__seis h1{
+  text-align: center;
+  padding: 60px 0 60px 0;
+  color: #FFF;
+  font-size: 36px;
+  font-family: var(--sequel-semi-bold);
+  font-weight: bold;
+}
+
+.sessao__seis p{
+  color: #FFF;
+  font-size: 24px;
+  padding-bottom: 25px;
+  font-family: var(--sequel-roman);
+}
+
+@media (max-width: 739px) {
+  .sessao__seis h1{
+    font-size: 28px;
+  }
+  
+  .sessao__seis p{
+    font-size: 18px;
+  }
+  
 }
