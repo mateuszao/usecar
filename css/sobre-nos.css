@@ -121,7 +121,7 @@ a{
 
 header {
   color: #ffffff;
-  height: auto;
+  height: 100%;
   width: 100%;
   background: url('../img/bg_sobre_nos.jpg') no-repeat center;
   background-size: cover;
@@ -211,12 +211,14 @@ header {
   .menu__text h1 {
     font-size: 28px;
     text-align: left;
+    padding: 15px;
   }
 
   .menu__text h2 {
     font-size: 18px;
     color: var(--second-color);
     font-family: var(--sequel-book);
+    padding: 15px;
   }
 
   .img_logo{
@@ -233,7 +235,29 @@ header {
     padding: 0 25px 0 25px;
   }
 
+  .some-mobile {
+    display: none;
+  }
 }
+
+@media (max-width: 1255px) {
+	header {
+    color: #fff;
+    max-width: 100%;
+    height: auto;
+    background: url('../img/bg_sobre_nos.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .padding-para-mobile {
+    padding: 0 25px 0 25px;
+  }
+
+  .some-mobile {
+    display: none;
+  }
+}
+
 
 /* Header Nav Menu Inicio */
 
@@ -243,7 +267,7 @@ header {
   width: 100%;
   height: auto;
   background-color: var(--first-color);
-  padding-bottom: 60px;
+  padding: 60px 0 60px 0;
 }
 
 .sessao__dois p{
@@ -253,12 +277,33 @@ header {
   color: #fff;
 }
 
+.paragrafo-dois {
+  font-family: var(--sequel-roman);
+  font-size: 24px;
+  color: #fff;
+}
+
+.paragrafo-tres {
+  font-family: var(--sequel-roman);
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+}
+
 @media (max-width: 739px) {
   
   .sessao__dois p{
     font-size: 18px;
   }
 }
+
+/* sessao__video_um */
+.sessao__video_um {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Sessão 03 */
 

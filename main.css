@@ -123,7 +123,7 @@ header {
   color: #ffffff;
   height: 100%;
   width: 100%;
-  background: url('img/Group\ 202.png') no-repeat center;
+  background: url('img/bg_index.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -198,7 +198,7 @@ header {
     color: #fff;
     max-width: 100%;
     height: auto;
-    background: url('img/Group\ 202.png') no-repeat center;
+    background: url('img/bg_index.jpg') no-repeat center;
     background-size: cover;
   }
 
@@ -272,7 +272,8 @@ header {
 }
 
 .img__sessao_dois {
-  margin-top: 80px;
+  padding-top: 60px;
+  width: 100px;
 }
 
 @media (max-width: 739px) {
@@ -290,14 +291,25 @@ header {
 
   .img__sessao_dois {
     margin-top: 60px;
-    width: 150px;
   }
 }
 
 /* sessao__video_um */
-.sessao__video_um, .sessao__video_dois {
+.sessao__video_um {
   width: 100%;
   height: auto;
+}
+
+.sessao__video_dois {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+@media (max-width: 739px) {
+  .sessao__video_dois {
+    padding-top: 60px;
+    padding-left: 0;
+  }
 }
 
 
@@ -408,6 +420,7 @@ header {
     padding: 30px 0 0 0;
   }
 
+  
 }
 
 /* Fim Sessão 04 - Solição */

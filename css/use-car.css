@@ -121,7 +121,7 @@ a{
 
 header {
   color: #ffffff;
-  height: auto;
+  height: 100%;
   width: 100%;
   background: url('../img/bg_usecar.jpg') no-repeat center;
   background-size: cover;
@@ -203,6 +203,7 @@ header {
   .menu__text h1 {
     font-size: 28px;
     text-align: left;
+    padding: 15px;
   }
 
   .menu__text h2 {
