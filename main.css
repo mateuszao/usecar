@@ -191,7 +191,11 @@ header {
   font-family: var(--sequel-book);
   font-size: 24px;
 }
-
+@media (max-height: 723px) {
+  header {
+    height: auto;
+  }
+}
 
 @media (max-width: 739px) {
 	header {
