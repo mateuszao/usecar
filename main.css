@@ -161,7 +161,7 @@ header {
 .menu__text h1 {
   font-size: 58px;
   color: var(--second-color);
-  margin-top: var(--mb-6);
+  margin-top: var(--mb-12);
   margin-bottom: var(--mb-3);
   font-family: var(--sequel-semi-bold);
 }
@@ -246,6 +246,11 @@ header {
     height: 55px;
   }
 
+  .menu__color {
+    font-family: var(--sequel-book);
+    font-size: 18px;
+  }
+
 }
 
 /* Header Nav Menu Inicio */
@@ -287,10 +292,6 @@ header {
     font-size: 18px;
     color: #fff;
     font-family: var(--sequel-roman);
-  }
-
-  .img__sessao_dois {
-    margin-top: 60px;
   }
 }
 
