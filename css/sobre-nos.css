@@ -189,6 +189,11 @@ header {
   font-size: 24px;
 }
 
+@media (max-height: 723px) {
+  header {
+    height: auto;
+  }
+}
 
 @media (max-width: 739px) {
 	header {
@@ -502,8 +507,7 @@ header {
     height: 150px;
   }
 }
-
-/* Sessão Cinco*/
+/* Sessão Cinco Form*/
 .sessao__cinco {  
   width: 100%;
   height: auto;
@@ -547,6 +551,51 @@ header {
   padding-top: 60px;
 }
 
+.inputWithIcon input[type="text"], .inputWithIcon input[type="email"], .inputWithIcon textarea {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: var(--first-color);
+}
+
+input[type="text"]:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 8px 0 var(--first-color);
+}
+
+.inputWithIcon input[type="email"]:focus + i {
+  color: var(--first-color);
+}
+
+input[type="email"]:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 8px 0 var(--first-color);
+}
+
+.inputWithIcon textarea:focus + i {
+  color: var(--first-color);
+}
+
+.inputWithIcon textarea:focus {
+  border-color: var(--first-color);
+  box-shadow: 0 0 8px 0 var(--first-color);
+}
+
+
 .footer {
   height: 50px;
   background: var(--first-color);
@@ -559,7 +608,11 @@ header {
 
 
 
-@media (max-width: 739px) {  
+@media (max-width: 739px) {
+	.img__sessao__03 {
+    display: none;
+  }
+  
   .sessao__cinco h1 {  
     text-align: left;
     font-size: 28px;

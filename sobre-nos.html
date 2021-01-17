@@ -10,6 +10,8 @@
 
   <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='css/sobre-nos.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
 </head>
 <body>
   
@@ -138,16 +140,26 @@
 
           <form>
             <div class="form-row">
-              <div class="form-group col-md-12">
-                <input type="text" class="form-control mb-3" id="inputAddress" placeholder="Nome">
-
-                <input type="email" class="form-control mb-3" id="inputEmail4" placeholder="Email">
-
-                <input type="telefone" class="form-control mb-3" id="inputEmail4" placeholder="Telefone">
+              <div class="form-group col-md-12 inputWithIcon">
+                <input type="text" class="form-control mb-3" id="inputNome" value="" name="inputNome" placeholder="Digite seu Nome">
+                <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+              </div>
+              <div class="form-group col-md-12 inputWithIcon">
+                <input type="email" class="form-control mb-3" id="inputEmail" value="" name="inputEmail" placeholder="Digite seu Email">
+                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+              </div>
+              <div class="form-group col-md-12 inputWithIcon">
+                <input type="email" class="form-control mb-3" id="inputTelefone" value="" name="inputTelefone" placeholder="Digite seu Telefone">
+                <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+              </div>
+              
+              <div class="form-group col-md-12 inputWithIcon">
+                <textarea class="form-control form-control" id="inputTextarea" name="inputTextarea" value="" placeholder="Digite sua Mensagem" rows="3"></textarea>
+                <i class="fa fa-pen fa-lg fa-fw" aria-hidden="true"></i>
               </div>
             </div>
             
-            <textarea class="form-control form-control" id="exampleFormControlTextarea1" placeholder="Mensagem" rows="3"></textarea>
+            
             <a href="" class="button__quatro mt-3">Enviar</a>
           </form>
         </div>
