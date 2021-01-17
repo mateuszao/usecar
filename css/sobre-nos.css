@@ -284,7 +284,7 @@ header {
 
 .paragrafo-dois {
   font-family: var(--sequel-roman);
-  font-size: 24px;
+  font-size: 46px;
   color: #fff;
 }
 
@@ -300,6 +300,12 @@ header {
   
   .sessao__dois p{
     font-size: 18px;
+  }
+
+  .paragrafo-dois {
+    font-family: var(--sequel-roman);
+    font-size: 36px;
+    color: #fff;
   }
 }
 
