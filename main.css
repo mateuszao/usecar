@@ -164,6 +164,7 @@ header {
   margin-top: var(--mb-12);
   margin-bottom: var(--mb-3);
   font-family: var(--sequel-semi-bold);
+  font-weight: bold;
 }
 
 .menu__text h2 {
@@ -191,6 +192,7 @@ header {
   font-family: var(--sequel-book);
   font-size: 24px;
 }
+
 @media (max-height: 723px) {
   header {
     height: auto;
@@ -216,7 +218,7 @@ header {
   }
 
   .menu__text h1 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: var(--mb-2);
   }
   
@@ -408,6 +410,55 @@ header {
   color: var(--first-color);
 }
 
+.img_um_sl {
+  max-width: 100%;
+  height: auto;
+  background: url('img/solucoes/7.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.img_dois_sl {
+  max-width: 100%;
+  height: auto;
+  background: url('img/solucoes/9.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.img_tres_sl {
+  max-width: 100%;
+  height: auto;
+  background: url('img/solucoes/10.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.img_quatro_sl {
+  max-width: 100%;
+  height: auto;
+  background: url('img/solucoes/15.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.img_cinco_sl {
+  max-width: 100%;
+  height: auto;
+  background: url('img/solucoes/usecar_eletric.jpg') no-repeat center;
+  background-size: cover;
+}
+
+/* @media (max-width: 1024px) {
+  .sl-empresa-text{
+    padding: 30px 5px 0 5px;
+  }
+  
+  .sl-voce-text {
+    padding: 30px 15px 0 15px;
+  } 
+
+  .sl-empresa-text p{
+    padding-bottom: 10px;
+  }
+} */
+
 @media (max-width: 739px) {
   .some-mobile {
     display: none;
@@ -418,13 +469,14 @@ header {
   }
   
   .sl-empresa-text{
-    padding: 30px 0 0 0;
+    padding: 30px 5px 0 5px;
   }
   
   .sl-voce-text {
-    padding: 30px 0 0 0;
+    padding: 30px 5px 0 5px;
   } 
 }
+
 /* Fim Sessão 04 - Solição */
 
 
